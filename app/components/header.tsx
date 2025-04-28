@@ -136,13 +136,7 @@ export function Header() {
                 </>
               )}
             </Popover>
-            {/* <Button href="/login" variant="outline" className="hidden lg:block">
-              Log in
-            </Button>
-            <Button href="#" className="hidden lg:block">
-              Download
-            </Button> */}
-          </div>
+                       </div>
         </Container>
       </nav>
     </header>
