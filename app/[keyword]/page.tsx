@@ -19,7 +19,7 @@ export const generateMetadata = ({
   params: { keyword: string };
 }) => {
   return getSEOTags({
-    title: `Quillminds for ${params.keyword}`,
+    title: `Test Quillminds for ${params.keyword}`,
     description: `Quillminds helps with ${params.keyword}. Create lesson plans, quizzes, and more.`,
     canonicalUrlRelative: `/${params.keyword}`,
   });
